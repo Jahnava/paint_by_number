@@ -6,6 +6,8 @@
   margin: auto;
   /*display:none;*/
   overflow: hidden;
+  border: 3px solid silver;
+  padding-bottom: 10px;
 }
 
 
@@ -14,7 +16,7 @@
     float:right;
      width:  150px;
     height: 75px;
-    border: 3px solid #73AD21;
+    border: 3px solid white;
     display:inline-block;
     background-color:white;
 }
