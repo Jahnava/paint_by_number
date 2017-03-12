@@ -5,6 +5,7 @@
   display: block;
   margin: auto;
   /*display:none;*/
+  overflow: hidden;
 }
 
 
@@ -19,13 +20,13 @@
 }
 
 
-.hidden>div {
+/*.hidden>div {
     display:none;
 }
 
 .visible>div {
     display:block;
-}
+}*/
 
 #uiControls{
 
