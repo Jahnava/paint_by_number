@@ -17,11 +17,9 @@
 
 function calculateGrid(numRows, numCols){
 
-  // calculate how big each div has to be to fit in the image size, assuming 1 pixel border on each side
+
   gridHeight =  Math.round(imageHeight/numRows)-borderSize*2;
   gridWidth =  Math.round(imageWidth/numCols)-borderSize*2;
-  // gridHeight =  (imageHeight/numRows)-borderSize*2;
-  // gridWidth =  (imageWidth/numCols)-borderSize*2;
 
   boxHeight = gridHeight + "px";    // add px so it is a string in the right format
   boxWidth = gridWidth + "px";      // add px so it is a string in the right format
